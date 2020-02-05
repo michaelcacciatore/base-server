@@ -1,0 +1,43 @@
+{
+  "name": "@mcacciatore/base-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server that is compatible with frameworks such as Express, Koa, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcacciatore/oriql.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "http",
+    "express",
+    "koa"
+  ],
+  "author": "Michael Cacciatore <mcacciatore116@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelcacciatore/base-server/issues"
+  },
+  "homepage": "https://github.com/michaelcacciatore/base-server#readme",
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/test/setup.js"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5"
+  }
+}
