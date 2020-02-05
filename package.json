@@ -1,6 +1,6 @@
 {
-  "name": "@mcacciatore/base-server",
-  "version": "1.0.0",
+  "name": "cach-server",
+  "version": "1.0.1",
   "description": "A simple Node.js server that is compatible with frameworks such as Express, Koa, etc.",
   "main": "index.js",
   "scripts": {
